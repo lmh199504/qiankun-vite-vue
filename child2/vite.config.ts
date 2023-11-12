@@ -24,6 +24,6 @@ export default ({mode}) => {
         'Access-Control-Allow-Origin': '*',
       },
     },
-    base: __DEV__ ? '/child2' : '//localhost:40002',
+    // base: __DEV__ ? '/child2' : '//localhost:40002',
   })
 } 
