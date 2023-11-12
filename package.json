@@ -1,0 +1,23 @@
+{
+  "name": "use-qiankun",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "install": " npm-run-all -s install:*",
+    "install:main":"cd main && yarn ",
+    "install:child1":"cd child1 && yarn",
+    "install:child2":"cd child2 && yarn",
+    "start": "npm-run-all -p start:*",
+    "start:main": "cd main && yarn dev",
+    "start:child1": "cd child1 && yarn dev",
+    "start:child2": "cd child2 && yarn dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "yarn-run-all": "^3.1.1"
+  }
+}
