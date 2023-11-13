@@ -10,9 +10,14 @@
       <div class="menu-item">
         <RouterLink to="/child2">子应用2</RouterLink>
       </div>
+      <div class="menu-item">
+        <RouterLink to="/child2/hello">子应用2-hello</RouterLink>
+      </div>
+      <div class="menu-item">
+        <RouterLink to="/child2/home">子应用2-home</RouterLink>
+      </div>
     </div>
     <div class="content">
-      <div id="sub-container"></div>
       <RouterView />
     </div>
   </div>
