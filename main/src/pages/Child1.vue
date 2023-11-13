@@ -1,4 +1,4 @@
-<template>
+<!-- <template>
   <div id="sub-container1"></div>
   <RouterView />
 </template>
@@ -25,4 +25,5 @@ onMounted(() => {
 onUnmounted(() => {
   microApp?.unmount()
 })
-</script>
+</script> -->
+<template></template>

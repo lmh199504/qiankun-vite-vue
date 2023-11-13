@@ -12,7 +12,8 @@
       </div>
     </div>
     <div class="content">
-      <div id="sub-container"></div>
+      <div id="sub-container1"></div>
+      <div id="sub-container2"></div>
       <RouterView />
     </div>
   </div>
