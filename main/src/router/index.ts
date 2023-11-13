@@ -3,12 +3,6 @@ import Main from "@pages/Main.vue";
 import Sub from "@pages/sub.vue";
 import Child1Vue from "@pages/Child1.vue"
 import Child2Vue from "@/pages/Child2.vue";
-const menuRoutes= [
-  {
-    path: "/index",
-    component: Main,
-  },
-];
 
 const routes = [
 	{
@@ -72,4 +66,4 @@ const router = createRouter({
   routes,
 });
 
-export { router, menuRoutes as routes };
+export default router;

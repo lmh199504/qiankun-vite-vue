@@ -31,5 +31,4 @@ const apps = microApps.map((item) => {
 registerMicroApps(apps);
 
 start()
-export { microApps };
-export default apps;
+

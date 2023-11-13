@@ -11,6 +11,7 @@ export default defineConfig({
 		},
 	},
   server: {
+    open: true,
     headers: {
       'Access-Control-Allow-Origin': '*'
     }
